@@ -6,6 +6,7 @@ import TodoApp from "../components/TodoApp/Todo";
 import Tabs from "../components/TabComponent/Counter";
 import Toggle from "../components/Toggle Switch/Counter";
 import Modal from "../components/Modal/Counter";
+import App from "../components/ContextApi/App";
 
 export const projects = [
     { name: "Create a Counter Component", component: Counter },
@@ -23,7 +24,7 @@ export const projects = [
     { name: "Implement a Virtualized List", component: TodoApp },
     { name: "Create a Reusable Form Component with Validation", component: TodoApp },
     { name: "Implement a Dynamic Form with Field Arrays", component: TodoApp },
-    { name: "Implement a Context API for Global State", component: TodoApp },
+    { name: "Implement a Context API for Global State", component: App },
     { name: "Create a Custom Hook", component: TodoApp },
     { name: "Build a Todo List with Drag-and-Drop", component: TodoApp },
     { name: "Create a Countdown Timer", component: TodoApp },
