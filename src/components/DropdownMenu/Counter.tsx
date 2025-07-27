@@ -1,5 +1,5 @@
 
-import React, { useEffect, useState } from "react";
+import React, { CSSProperties, useEffect, useState } from "react";
 
 type FetchProps = {};
 
@@ -102,7 +102,7 @@ const DropdownMenu: React.FC<FetchProps> = () => {
 
 export default DropdownMenu;
 
-const styles = {
+const styles : { [key: string]: CSSProperties }= {
   container: {
     maxWidth: "400px",
     margin: "50px auto",
@@ -157,7 +157,7 @@ const styles = {
   },
   userList: {
     maxHeight: "200px",
-    overflowY:'auto',
+    overflowY:"auto" as React.CSSProperties["overflowY"],
   },
   userItem: {
     padding: "8px 10px",
@@ -166,7 +166,7 @@ const styles = {
     transition: "background-color 0.3s ease",
   },
   noItems: {
-    textAlign: "center",
+    textAlign: "center" as React.CSSProperties["textAlign"],
     color: "#888",
     marginTop: "10px",
   },

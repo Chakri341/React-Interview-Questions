@@ -7,6 +7,7 @@ import Tabs from "../components/TabComponent/Counter";
 import Toggle from "../components/Toggle Switch/Counter";
 import Modal from "../components/Modal/Counter";
 import App from "../components/ContextApi/App";
+import ReduxApp from "../components/ReduxToolKit/App";
 
 export const projects = [
     { name: "Create a Counter Component", component: Counter },
@@ -25,6 +26,7 @@ export const projects = [
     { name: "Create a Reusable Form Component with Validation", component: TodoApp },
     { name: "Implement a Dynamic Form with Field Arrays", component: TodoApp },
     { name: "Implement a Context API for Global State", component: App },
+    { name: "Cart Using Redux Tool Kit", component: ReduxApp },
     { name: "Create a Custom Hook", component: TodoApp },
     { name: "Build a Todo List with Drag-and-Drop", component: TodoApp },
     { name: "Create a Countdown Timer", component: TodoApp },
